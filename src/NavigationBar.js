@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 
 const NavigationBar = () => {
+    // Add Bootstrap NavBar to route between URLs
     return (
         <Navbar bg="primary" data-bs-theme="dark">
             <Container>

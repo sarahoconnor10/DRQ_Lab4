@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Content from './Content.js'
 import Header from './Header.js'
@@ -11,12 +12,12 @@ function App() {
   return (
 
     /*
-      Add hello world title and use Date() to display current time  
+      Import NavigationBar and Route to different components
     */
     <div className="App">
       <Router>
         <NavigationBar />
-       
+
         <Routes>
           <Route path="/" element={<Content />} />
           <Route path="/read" element={<Footer />} />
@@ -24,7 +25,6 @@ function App() {
         </Routes>
       </Router>
     </div>
-
   );
 }
 

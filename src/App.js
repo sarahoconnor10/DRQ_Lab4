@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Content from './Content.js'
 import Header from './Header.js'
+import Footer from './Footer.js'
 
 import './App.css';
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Content></Content>
       <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }

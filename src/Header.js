@@ -1,5 +1,5 @@
 const Header = () => {
-    return <h1>My Header in another component</h1>;
+    return <h1>My Header is in another component - Header.js!!</h1>;
   };
   
   export default Header;

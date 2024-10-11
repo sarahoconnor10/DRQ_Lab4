@@ -1,12 +1,27 @@
 // Functional component to be responsible
 // for rendering individual movie details
+import Card from 'react-bootstrap/Card';
+import { useEffect } from "react";
+
 
 const MovieItem = (props) => {
+    useEffect(() => {
+        console.log("Movie Item:", props.mymovie);
+  }, [props.mymovie]); // Only run this effect when the mymovie prop changes
+    
     return(
         <div>
-            <h3>{props.myMovie.Title}</h3>
-            <h4>{props.myMovie.Year}</h4>
-            <img src={props.myMovie.Poster}></img>
+            <Card>
+                <Card.Header>
+                    {props.myMovie.Title}
+                </Card.Header>
+                <Card.Body>
+                    <blockquote className="blockquote mb-0">
+                        <img src={props.myMovie.Poster}></img>
+                        <footer>{props.myMovie.Year}</footer>
+                    </blockquote>
+                </Card.Body>
+            </Card>
         </div>
     );
 }

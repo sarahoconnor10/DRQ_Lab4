@@ -19,8 +19,8 @@ const MovieItem = (props) => {
             - Helps to handle side effects within functional components
     */
     useEffect(() => {
-        console.log("Movie Item:", props.mymovie);
-    }, [props.mymovie]); 
+        console.log("Movie Item:", props.myMovie);
+    }, [props.myMovie]); 
 
     return (
         /*

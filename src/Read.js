@@ -28,7 +28,6 @@ const Read = () => {
     return (
         <div>
             <Movies myMovies = {movies}/>
-            
         </div>
     ) 
 };

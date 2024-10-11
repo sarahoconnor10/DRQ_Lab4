@@ -4,7 +4,7 @@ import Movies
 const Read = () => {
     /* 
         - Store json movie data in a const variable.
-        - Pass this const into Movies component for external use
+        - Return this const into Movies component for external use.
     */
     const movies = [
         {
@@ -31,9 +31,9 @@ const Read = () => {
     ];
     return (
         <div>
-            <Movies myMovies = {movies}/>
+            <Movies myMovies={movies} />
         </div>
-    ) 
+    )
 };
 
 export default Read;

@@ -2,6 +2,10 @@
 import Movies
     from "./Movies";
 const Read = () => {
+    /* 
+        - Store json movie data in a const variable.
+        - Pass this const into Movies component for external use
+    */
     const movies = [
         {
             "Title": "Avengers: Infinity War",

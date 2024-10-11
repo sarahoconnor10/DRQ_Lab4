@@ -1,5 +1,4 @@
 //import all necessary components
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Content from './Content.js'
 import NavigationBar from './NavigationBar.js';

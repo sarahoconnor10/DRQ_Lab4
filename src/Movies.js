@@ -6,7 +6,6 @@ const Movies = (props) => {
         <div>
             movies component
             {console.log(props.myMovies)}
-            
         </div>
     )
 };

@@ -1,9 +1,17 @@
 //New component to hold Create content
 import { useState } from "react";
 
+/*
+    - useState()  ->
+        - React hook
+        - allows you to add state variables to functional components
+    - setTitle(), setYear(), setPoster() 
+        - sets respective variables from input
+*/
+
 const Create = () => {
     const handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault(); //prevents calling multiple times
         console.log(title);
         console.log(year);
         console.log(poster);

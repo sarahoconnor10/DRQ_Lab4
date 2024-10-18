@@ -6,8 +6,18 @@ import axios from "axios";
 
 const Read = () => {
     /* 
-        - Store json movie data in a const variable.
-        - Return this const into Movies component for external use.
+        - useEffect() ->
+            - React hook
+            - Ideal for synchronising component with external API's etc.
+            - Helps to handle side effects within functional components
+        - useState()  ->
+            - React hook
+            - allows you to add state variables to functional components
+        - Axios       ->  
+                Promise-based HTTP client used to make requests to a server.
+                Allows sending of async HTTP request (.get)
+        - Retreiving movie data asynchronously with axios
+        - Return this data for external use.
     */
     // const movies = [
     //     {
